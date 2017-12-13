@@ -1,0 +1,5 @@
+---
+- hosts: default
+  roles:
+    - role: ansible-docker-py-centos
+      become: yes
