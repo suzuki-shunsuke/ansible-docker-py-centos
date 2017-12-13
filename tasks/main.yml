@@ -1,0 +1,10 @@
+- name: install python2 and pip
+  yum:
+    name: "{{item}}"
+    update_cache: yes
+  with_items:
+    - python2
+    - python2-pip
+- name: install docker-py
+  pip:
+    name: docker-py
