@@ -10,7 +10,11 @@ Nothing.
 
 ## Role Variables
 
-Nothing.
+name | required | default | example | description
+--- | --- | --- | --- | ---
+docker_py_python2_state | no | omit | latest | yum module's arguments
+docker_py_pip_state | no | omit | latest | yum module's arguments
+docker_py_docker_py_state | no | omit | latest | pip module's arguments
 
 ## Dependencies
 
@@ -22,6 +26,7 @@ Nothing.
 - hosts: servers
   roles:
     - role: suzuki-shunsuke.docker-py-centos
+      docker_py_docker_py_state: latest
       become: yes
 ```
 
