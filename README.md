@@ -1,8 +1,10 @@
 # ansible-docker-py-centos
 
-ansible role to install docker-py on CentOS
+[![Ansible Role](https://img.shields.io/ansible/role/22764.svg)](https://galaxy.ansible.com/suzuki-shunsuke/docker-py-centos/)
+[![Ansible Role](https://img.shields.io/ansible/role/d/22764.svg)](https://galaxy.ansible.com/suzuki-shunsuke/docker-py-centos/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/ansible-docker-py-centos.svg)](https://github.com/suzuki-shunsuke/ansible-docker-py-centos)
 
-https://galaxy.ansible.com/suzuki-shunsuke/docker-py-centos/
+ansible role to install docker-py on CentOS
 
 ## Requirements
 
